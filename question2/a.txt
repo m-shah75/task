@@ -1,0 +1,4 @@
+SELECT ticket.Topic_id , Count(*) as c FROM tickets GROUP BY tickets.topic_id
+
+
+این کوئری مربوط به قسمت اول سوال دو می باشد
