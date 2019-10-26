@@ -1,0 +1,1 @@
+SELECT COUNT(*) as "Tickets" , topics.Topic_parent_id FROM tickets INNER JOIN topics on tickets.Topic_id=topics.id GROUP by topics.Topic_parent_id
